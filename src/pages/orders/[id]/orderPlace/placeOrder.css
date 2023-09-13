@@ -1,0 +1,126 @@
+#placeOrder .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  #placeOrder .container {
+    max-width: 1140px;
+  }
+}
+#placeOrder .d-flex {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+}
+@media screen and (max-width: 768px) {
+  #placeOrder .d-flex {
+    display: block;
+  }
+}
+#placeOrder form {
+  flex: 4;
+}
+#placeOrder .Yorder {
+  flex: 2;
+}
+#placeOrder .title {
+  background: #3f130f;
+  border-radius: 15px 15px 0 0;
+  padding: 20px;
+  color: #f6f6f6;
+}
+#placeOrder h2 {
+  margin: 0;
+  padding-left: 15px;
+}
+.required {
+  color: red;
+}
+#placeOrder label,
+table {
+  display: block;
+  margin: 15px;
+}
+#placeOrder label > span {
+  float: left;
+  width: 25%;
+  margin-top: 12px;
+  padding-right: 10px;
+}
+#placeOrder input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 70%;
+  height: 30px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dadada;
+  color: #888;
+}
+#placeOrder select {
+  width: 72%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#placeOrder .Yorder {
+  margin-top: 15px;
+  height: 600px;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+#placeOrder table {
+  margin: 0;
+  padding: 0;
+}
+#placeOrder th {
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+  text-align: left;
+}
+#placeOrder tr > td:nth-child(1) {
+  text-align: left;
+  color: #2d2d2a;
+}
+#placeOrder tr > td:nth-child(2) {
+  text-align: right;
+  color: #3f130f;
+  font-weight: 700;
+}
+#placeOrder td {
+  border-bottom: 1px solid #dadada;
+  padding: 25px 0px 25px 0;
+}
+
+#placeOrder p {
+  display: block;
+  color: #888;
+  margin: 0;
+  padding-left: 25px;
+}
+#placeOrder .Yorder > div {
+  padding: 15px 0;
+}
+
+#placeOrder button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f88008 !important;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+#placeOrder button:hover {
+  cursor: pointer;
+  background: #428a7d !important;
+}

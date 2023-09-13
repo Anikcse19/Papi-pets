@@ -1,0 +1,190 @@
+#orderPage > .espace {
+  height: 110px;
+}
+#orderPage > .col-12.auto.section.eight {
+  display: flex;
+  flex-direction: row;
+}
+#orderPage > .center_btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#orderPage > button.btn_tester {
+  background-color: #511c19;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+#orderPage > .footer_btn {
+  height: 110px;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#orderPage > li {
+  list-style: none;
+}
+#orderPage > .sante_tt {
+  text-align: left;
+}
+#orderPage > .section.six {
+  max-width: 100% !important;
+  background: #f1f3f5;
+}
+#orderPage > img.img_sante {
+  width: 100px;
+}
+#orderPage > .top_section {
+  margin: 40px;
+}
+#orderPage > .ingredients,
+.ingredients p {
+  text-align: left !important;
+}
+#orderPage > .bas_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#orderPage > .ingredients {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+#orderPage > .img_inge {
+  width: 50%;
+}
+#orderPage > .img_inge img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+#orderPage > .ingredients .ig1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#orderPage > .ingredients .ig2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#orderPage > .ingredients .ig3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+#orderPage > .ingredients .ig4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+#orderPage > .d,
+#heart {
+  fill: #000;
+}
+
+#orderPage > .app_resultat_page {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#orderPage > .auto {
+  margin: auto;
+}
+#orderPage > .section.two {
+  border-radius: 26px;
+  padding: 20px;
+}
+
+#orderPage > div#logo_home {
+  width: 180px;
+  margin: 30px auto;
+}
+#orderPage > .section.two {
+  background: #fef1e2;
+}
+#orderPage > .container {
+  gap: 30px;
+}
+#orderPage > h2.msg_thanks {
+  width: 295px;
+  margin: auto;
+}
+
+#orderPage > img {
+  width: 100%;
+}
+
+#orderPage > .select_recet {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  #orderPage > .select_recet {
+    flex-direction: column;
+  }
+}
+
+#orderPage > .product_card {
+  margin: 0 15px;
+  text-align: left;
+  background-color: #f1f3f5;
+  padding: 20px;
+  border-radius: 15px;
+}
+#orderPage > .product_card img {
+  border-radius: 15px;
+}
+
+#orderPage > .content_product {
+  margin-top: 20px;
+}
+
+#orderPage > .content_product .p1 {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+#orderPage > .content_product .p1 p {
+  margin: 0;
+  padding: 0;
+}
+#orderPage > .cont_top p,
+.cont_bottom p {
+  width: 50%;
+}
+#orderPage > .cont_bottom {
+  margin-top: 20px;
+}
+#orderPage > .content_product div a {
+  color: #000;
+}
+#orderPage > .cont_top,
+.cont_bottom {
+  display: flex;
+}
+#orderPage > .content_product .p1 p.left {
+  text-align: left;
+}
+
+#orderPage > .content_product .p1 p.right {
+  text-align: right;
+}
+#orderPage > .section.four {
+  background-color: #fef1e2;
+}
+@media screen and (min-width: 768px) {
+  #orderPage > .section.four {
+    padding: 60px !important;
+  }
+}
+
+#orderPage > img.img_repas {
+  width: 98px !important;
+  margin: 20px 0;
+}
