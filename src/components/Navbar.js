@@ -2232,12 +2232,12 @@ const Navbar = () => {
                       Marketing Administrator
                     </p>
                   </div>
-                  <div
+                  {/* <div
                     className="bg-orange-700 font-bold px-3 py-1 rounded-lg text-white text-lg "
                     onClick={handleLogout}
                   >
                     Logout
-                  </div>
+                  </div> */}
                 </div>
               </li>
             </ul>

@@ -61,9 +61,9 @@ const DynamicOrder = (params) => {
    
    
   };
-  console.log(selected)
+  // console.log(selected)
 
-  console.log(location.pathname, "router here");
+  // console.log(location.pathname, "router here");
   const { id } = 1;
 
   let item;
@@ -101,7 +101,7 @@ const DynamicOrder = (params) => {
     }
     else{
       // toast.error("Please Select One Package")
-      setError("Please Select one package")
+      setError("Veuillez sélectionner un forfait")
     }
    
     
